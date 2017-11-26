@@ -5,7 +5,10 @@ import org.joda.time.Duration
 fun Duration.toTimeElapsedString(): String {
     val hours = this.standardHours
     val minutes = this.standardMinutes
-    val seconds = this.standardSeconds
+    val seconds = this.standardSeconds % 60
+
+
+    //seconds = seconds % 60
 
     val minuteStr = if (minutes > 10) "${minutes}" else "0${minutes}"
     val secondStr = if (seconds > 10) "${seconds}" else "0${seconds}"
