@@ -8,6 +8,7 @@ fun Duration.toTimeElapsedString(): String {
     val seconds = this.standardSeconds % 60
 
 
+
     //seconds = seconds % 60
 
     val minuteStr = if (minutes > 10) "${minutes}" else "0${minutes}"
