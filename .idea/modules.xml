@@ -3,11 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/android-stopwatch.iml" filepath="$PROJECT_DIR$/android-stopwatch.iml" />
-      <module fileurl="file://C:\Users\Kai\AndroidStudioProjects\android-stopwatch\android-stopwatch.iml" filepath="C:\Users\Kai\AndroidStudioProjects\android-stopwatch\android-stopwatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/stopwatch-app/stopwatch-app.iml" filepath="$PROJECT_DIR$/stopwatch-app/stopwatch-app.iml" />
-      <module fileurl="file://C:\Users\Kai\AndroidStudioProjects\android-stopwatch\stopwatch-app\stopwatch-app.iml" filepath="C:\Users\Kai\AndroidStudioProjects\android-stopwatch\stopwatch-app\stopwatch-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/stopwatch-core/stopwatch-core.iml" filepath="$PROJECT_DIR$/stopwatch-core/stopwatch-core.iml" />
-      <module fileurl="file://C:\Users\Kai\AndroidStudioProjects\android-stopwatch\stopwatch-core\stopwatch-core.iml" filepath="C:\Users\Kai\AndroidStudioProjects\android-stopwatch\stopwatch-core\stopwatch-core.iml" />
     </modules>
   </component>
 </project>
