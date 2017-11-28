@@ -20,6 +20,7 @@ class StopwatchActivity : BaseActivity() {
     }
 
     override fun onResume() {
+
         super.onResume()
         eventBus.register(this)
 

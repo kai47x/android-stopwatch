@@ -10,6 +10,7 @@ fun Duration.toTimeElapsedString(): String {
     val minuteStr = if (minutes > 9) "${minutes}" else "0${minutes}"
     val secondStr = if (seconds > 9) "${seconds}" else "0${seconds}"
 
+
     return if (hours > 0) "${hours}:${minuteStr}:${secondStr}"
     else "E ${minuteStr}:${secondStr}"
 }
